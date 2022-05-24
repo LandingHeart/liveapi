@@ -5,10 +5,6 @@ const orderSchema = new Schema({
     type: Date,
     required: true,
   },
-  productId: {
-    type: String,
-    required: true,
-  },
   orderItems: [String],
   orderTotal: {
     type: String,
